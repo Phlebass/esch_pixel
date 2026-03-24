@@ -12,12 +12,8 @@ uniform vec4 colDiffuse;
 out vec4 finalColor;
 
 // uniforms
-uniform int num_pics;
-uniform int scale_step;
 uniform int period; // scale^numpic multiplicative
 uniform float zoom; // multiplicative
-
-uniform sampler2D textures[8];
 
 void main()
 {

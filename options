@@ -1,0 +1,24 @@
+winsize  = 800
+scale    = 4
+num_pics = 2
+filename = house
+
+The software only reads the first 4 lines, and expects them to be in the format above.
+- winsize:  the size of the window (it's a square)
+- scale:    the 'scale' of a picture relative to the next one. It should be an integer.
+- num_pics: the number of pictures that the software inserts inside each other
+- filename: the software looks for pictures "pics/filename/filename1.png", "pics/filename/filename2.png", etc
+
+The two examples are displayed with
+
+winsize  = 800
+scale    = 4
+num_pics = 4
+filename = monti
+
+and
+
+winsize  = 800
+scale    = 4
+num_pics = 2
+filename = house
